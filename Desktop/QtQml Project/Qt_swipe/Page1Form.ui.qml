@@ -12,6 +12,7 @@ Page {
     }
 
     Label {
+        color: "olive"
         text: qsTr("You are on Page 1.")
         anchors.centerIn: parent
     }
