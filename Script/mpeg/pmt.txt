@@ -1,0 +1,49 @@
+-------------------------------------------------
+PMT: Program PID is 0x0104 (260)
+PMT: Program number  is 0x0005 (5)
+
+PMT Header:
+  Table id = 0x02 (2)
+  Section syntax indicator is 1
+  Zero bit is 0
+  reserved is 3 (3)
+  Section length = 0x49 (73)
+  Program number = 0x0005 (5)
+  Table version = 0x01 (1)
+  Current next indicator = 1
+  Section number = 0x00 (0)
+  Last section number = 0
+  reserved is 7 (7)
+
+PMT Payload:
+  Pcr pid = 0x0901 (2305)
+  reserved is f (15)
+  Program info length = 0x11 (17)
+
+  Elementary stream loop:
+
+    Elementary stream Pid = 0x090b (2315) and type = 0x02 (2)
+    Es info length = 0x0010 (16)
+	ISO/IEC 13818-2 (MPEG-2 Video)
+
+    Descriptor: Private Data Specifier Descriptor
+	Descriptor tag = 5f (95)
+	Descriptor length = 06 (6)
+	Private data specifier = 1045201 (17060353)
+
+    Descriptor: Stream Identifier Descriptor
+	Descriptor tag = 52 (82)
+	Descriptor length = 01 (1)
+	Component tag = 00 (0)
+
+    Elementary stream Pid = 0x090c (2316) and type = 0x04 (4)
+    Es info length = 0x0011 (17)
+	ISO/IEC 13818-3 (MPEG-2 Audio)
+
+    Descriptor: Stream Identifier Descriptor
+	Descriptor tag = 52 (82)
+	Descriptor length = 01 (1)
+	Component tag = 8a (138)
+
+CRC  65ac4e5b (1705791067)
+

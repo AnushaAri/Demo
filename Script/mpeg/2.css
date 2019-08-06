@@ -1,0 +1,56 @@
+ul {
+  list-style-type:none;
+}
+
+h3 {
+  color:#2290eae8;
+  text-align:center;
+}
+
+p {
+  text-align:center;
+}
+
+fieldset {
+  display:block;
+  margin-left:300px;
+  margin-right:300px;
+  margin-top:50px;
+}
+
+legend {
+  display:block;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+#info {
+  font-size:12px;
+  font-color:grey;
+  padding:1px;
+}
+
+.stream {
+  text-decoration:none;
+  font-size:14px;
+  color:white;
+}
+
+.shape {
+  background-color:#4a9bddba;
+  width:250px;
+  height:35px;
+  line-height:40px;
+  margin:20px auto;
+  position:relative;
+  text-align:center;
+  vertical-align:center;
+}
+
+a:hover {
+  color:#4a9bddba;
+}
+
+.shape:hover {
+  background-color:#e1ecf5;
+}
